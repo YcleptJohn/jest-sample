@@ -1,0 +1,11 @@
+{
+  "name": "jest-sample",
+  "version": "1.0.0",
+  "description": "An example of a program that is tested by jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC"
+}
