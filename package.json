@@ -4,11 +4,13 @@
   "description": "An example of a program that is tested by jest",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/.bin/jest --testResultsProcessor './processor.js'"
+    "test": "node_modules/.bin/jest --testResultsProcessor './processor.js'",
+    "lint": "node_modules/.bin/standard"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jest": "23.0.0"
+    "jest": "23.0.0",
+    "standard": "11.0.1"
   }
 }
